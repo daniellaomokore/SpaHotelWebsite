@@ -1,0 +1,121 @@
+form {
+  margin: 0 auto;
+  width: 320px; /*This deterines the size of the entire form*/
+  font-size: large;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+form h2{
+  display: flex;
+  justify-content: center; /*makes the text be centered horizontally*/
+}
+
+.inputField {
+  width: 100%; /*this ensures that the input boxes take up 100% of the space of the parent component-which is this case is 'form'*/
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #777;
+  border-radius: 10px; /*this makes the box curved*/
+
+}
+
+.textAreaField {
+  resize: none; /*prevent height and width from being expanded*/
+  height: 175px;
+}
+
+.button {
+  border-radius: 20px;
+  color: white;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: palevioletred;
+  border: none; 
+  cursor: pointer;
+  height: 100%;
+  width: 104%;
+}
+
+.button:hover {
+  background-color: rgb(215, 79, 125);
+}
+
+/*span allows you to apply styles to text that's within a larger body of text*/
+/* . for classess */
+span {
+  color: palevioletred;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+}
+
+main {
+  text-align: justify; /*aligns the text all in one straight block*/
+  width: 600px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(56, 57, 58);
+  color: rgb(255, 255, 255);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex; /*Use flexbox to..  */
+  justify-content: space-evenly; /*Space the item on then nav bar out evenly*/
+  align-items: center; /*keeps the text in the centre after we increase the height of the blocks*/
+  background-color: black; /*make the background colour black */
+  list-style-type: none;
+}
+
+nav ul li {
+  /*Adds padding the the li elements so that when i hover over it it looks thicker*/
+  padding-left: 50px;  
+  padding-right: 50px;
+}
+
+nav ul li:hover {
+  background-color: #5b5757;
+}
+
+nav ul li a {
+  display: block;
+  color: white; /*make the text white */
+  text-decoration: none; /*remove the underline */
+  padding: 18px 0;
+  width: 100%; /* set the width of the block to 100% */
+}
+
+
+
+hr {
+  height: 0.5px;
+  border-width: 6;
+  border-top: 0.5px solid #ccc;
+}
+
+body {
+  font-family: "Cormorant", serif;
+  text-align: center;
+  margin: 0; /*removed white margin around webpage*/
+  background-color: whitesmoke;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.1em;
+  color: #333;
+  margin: 35px auto; /*35 pixel margin on the top and bottom, and the left and right margins will be automatically calculated based on the available space. The auto value centers the element horizontally within its parent container.*/
+  padding: 10px 40px; /*10-pixel padding on the top and bottom of the blockquote element and a 40-pixel padding on the left and right side*/
+  background-color: #ebe7e7;
+  border-left: 5px solid #ddd; /*sets the left border of an element to a solid line with a width of 5 pixels and a color of #ddd (light gray).*/
+  width: 515px;
+}
+
