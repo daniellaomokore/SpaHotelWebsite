@@ -1,5 +1,5 @@
 # The Dome - Spa Hotel 
- Sophisticated Static Website Design for a Hotel Spa
+ Sophisticated Static Website Design for a Spa Hotel and Resort.
  
 
 
