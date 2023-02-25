@@ -126,8 +126,7 @@ form {
   font-size: large;
 }
 
-
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   /* styles for phones go here */
 
 }
