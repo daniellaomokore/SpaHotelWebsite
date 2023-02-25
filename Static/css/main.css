@@ -115,6 +115,8 @@ blockquote {
   border-left: 5px solid #ddd; /*sets the left border of an element to a solid line with a width of 5 pixels and a color of #ddd (light gray).*/
 }
 
+
+
 form {
   text-align: center; /*cemters the text*/
   margin: 0 auto;
